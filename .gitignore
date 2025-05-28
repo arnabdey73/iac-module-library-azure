@@ -41,7 +41,25 @@ Thumbs.db
 *.swo
 *~
 
-# Credentials
+# Credentials and secrets
 *.pem
 *.key
+*.pfx
+*.p12
 secrets.tfvars
+*secret*.tfvars
+*sensitive*.tfvars
+.env
+.env.*
+*password*
+*credentials*
+*credential*
+kubeconfig
+*id_rsa*
+*id_dsa*
+.azure/
+.kube/
+terraform.tfvars
+terraform.tfvars.json
+*.tfvars.json
+.terraform.tfstate.lock.info
